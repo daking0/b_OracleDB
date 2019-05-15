@@ -1,0 +1,20 @@
+1. dept_test1와 emp_test1 테이블을 프로그래밍으로 만드세요
+   3개 부서를 입력하고 1부서당 사원을 2명씩 프로그래밍으로 입력하세요
+
+CREATE TABLE dept_test1 (
+  dno varchar2(2),
+  dname varchar2(14)
+);
+
+CREATE TABLE emp_test1 (
+  eno varchar2(4),
+  ename varchar2(10),
+  job varchar2(6),
+  dno varchar2(2)
+);
+
+2. 부서별 사원을 프로그래밍으로 출력하세요
+
+3. 부서를 입력하면 부서에 소속된 사원을 출력하세요
+
+4. 사원번호를 입력하면 해당 사원정보와 부서 정보를 출력하세요

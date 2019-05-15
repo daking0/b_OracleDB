@@ -1,0 +1,12 @@
+1. emp_test 테이블을 프로그래밍으로 만들고
+  콘솔로부터 3명의 정보를 입력받고
+  다시 검색해서 화면에 출력하세요
+
+CREATE TABLE emp_test (
+  eno varchar2(4),
+  ename varchar2(10),
+  job varchar2(6)
+);
+
+
+2. eno를 입력하면 해당 사원을 검색해서 출력하세요
